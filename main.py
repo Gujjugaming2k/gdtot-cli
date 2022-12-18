@@ -31,6 +31,7 @@ if(dest_id):
     drive_tools.gdDel(gd_service, file_id)
 
 print("Google drive link:", file_url)
+
 # genrate Cloudflare worker url
 if(worker_url):
     import urllib
@@ -40,3 +41,5 @@ if(worker_url):
     worker_file_url = worker_url + worker_uri
     print("Cloudflare worker direct link:",worker_file_url)
 
+# display output if ran directly
+input("Press Enter to continue...")
