@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Copyright (c) 2022 [.shovon]
 # 
 # This software is released under the MIT License.
