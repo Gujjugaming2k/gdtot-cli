@@ -2,7 +2,6 @@ import re
 import base64
 import requests
 from urllib.parse import urlparse, parse_qs
-import re
 # ==========================================
 
 def parse_info(res):
@@ -53,6 +52,7 @@ def gdtot_dl(url, crypt):
         info['error'] = True
         return info
 
+    info['error'] = False
     info['gdrive_link'] = gdrive_url
     
     return info
